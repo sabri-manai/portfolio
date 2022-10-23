@@ -8,6 +8,13 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 app.use("/", router);
+
+if (process.env.NOOE_INV === "production") {
+  app.use(express.static( 'build'));
+  app.get("*", (req, res) =>{
+   req.sendFile(path.resolve(_dirnane, "build", "index.html"));
+  })
+}
 //app.listen(process.env.PORT||5000, () => console.log("Server Running"));
 const PORT = process.env.PORT || 5000  
 
