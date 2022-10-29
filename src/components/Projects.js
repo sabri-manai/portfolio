@@ -21,32 +21,38 @@ export const Projects = () => {
       title: "Terra",
       description: "Digital Agri Space",
       imgUrl: terra,
+      github:"https://github.com/sabri-manai/Terra"
     },
     {
       title: "Dast",
       description: "Delivery Platform",
       imgUrl: dast,
+      github:"https://github.com/sabri-manai/transwire"
+
     },
     {
       title: "Meta Gif",
       description: "Web 3.0 Gif Portal on Metaverse",
       imgUrl: gif,
-
+      github:"https://github.com/sabri-manai/solana-dapp"
     },
     {
       title: "Memory Hub",
       description: "The place to share their memories",
       imgUrl: memories,
+      github:"https://github.com/sabri-manai/final-project-gmc-memories-mern"
     },
     {
       title: "Mazoo",
       description: "Here you can find all trending films, see hot trailers, and get a variety of reveiws ",
       imgUrl: mazoo,
+      github:"https://github.com/sabri-manai/movie"
     },
     {
       title: "Social Media",
       description: "Social Media Platform Built With MERN Stack",
       imgUrl: sabrisocial,
+      github:"https://github.com/sabri-manai/social-media"
     },
   ];
 
